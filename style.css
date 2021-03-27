@@ -283,6 +283,7 @@
 .header__main {
     background: #3030C1 top right no-repeat url('img/JPG.svg');
     background-position: 74px 5px;
+    background-size: 153px 158px;
 }
 
 .header__button {
@@ -313,7 +314,7 @@
 	display: none;
 } 
 
-.header__mobile {
+.header__mobileone {
 	font: bold 15px/16px Gilroy, Arial, Helvetica, Sans-serif;
 	color: #FFFFFF;
 	font-weight: normal;
