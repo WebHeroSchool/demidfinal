@@ -11,9 +11,7 @@
 
 .logo {
 	background: #3030C1;
-	/*padding: 124px 105px 0px 0;*/
 	padding-top: 0px;
-	/*background-size: 418px 47px;*/
 	color: #FFFFFF;
 	font: bolder 42px/142px Gilroy, Arial, Helvetica, Sans-serif;
 	padding-left: 128px; 
@@ -250,9 +248,21 @@
     word-spacing: 2px;
 }
 
-/*.header__mobile {
+.header__mobile {
 	display: none;
-}*/
+}
+
+.header__mobileone {
+	display: none;
+}
+
+.section__mobile {
+	display: none;
+}
+
+.input__mobile {
+	display: none;
+}
 
 @media (max-width: 321px) {
 .header {
