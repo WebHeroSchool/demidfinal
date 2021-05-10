@@ -1,13 +1,14 @@
 ﻿.body {
  	font-family: Gilroy, Arial, Helvetica, Sans-serif;
 	margin: 0;
-	min-width: 200%;
-	max-width: 2000%;
-} 
+	/*min-width: 200%;
+	max-width: 2000%;*/
+}
 
 .header {
 	background-color: #3030c1;
-	height:840px; 
+	height:840px;
+	margin: -8px;
 } 
 
 .logo {
@@ -30,7 +31,7 @@
 }
 
 @media (max-width: 1920px) {
-	.header__main {
+.header__main {
     background: #3030C1 top right no-repeat url('img/JPG.svg');
     background-position: 747px 52px;
 }
@@ -60,8 +61,8 @@
 
 .header__button {
 	font: bolder 22px/20px Montserrat, Arial, Helvetica, Sans-serif;
-	color: #3030C1;
-	padding: 16px 25px;
+	color: #3030c1;
+    padding: 16px 25px;
     text-decoration: none;
     border-radius: 0px;
     transition: opacity .5s;
@@ -187,7 +188,6 @@
 	background-color: #F0FBFF;
 	height: 559px;
 }
-
 
 .input__titel {
 	color: #3A3A3A;
@@ -267,7 +267,6 @@
 	display: none;
 }
 }
----------------------------------------------------------
 
 @media (max-width: 1442px) {
 .header__main {
@@ -299,9 +298,9 @@
 }
 
 .header__button {
-	font: bolder 22px/20px Montserrat, Arial, Helvetica, Sans-serif;
+	font: bolder 20px/20px Montserrat, Arial, Helvetica, Sans-serif;
 	color: #3030C1;
-	padding: 16px 25px;
+	padding: 16px 23px;
     text-decoration: none;
     border-radius: 0px;
     transition: opacity .5s;
@@ -313,8 +312,8 @@
 .section__heading {
 	color: #3A3A3A;
 	font: bolder 40px/136px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 518px;
-	margin: 14px; 
+	padding-left: 506px;
+	margin: 20px; 
 }
 
 .blockone__image {
@@ -332,7 +331,7 @@
 }
 
 .blockone__content {
-	font: bolder 21px/23px Gilroy, Arial, Helvetica, Sans-serif;
+	font: bolder 20px/23px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3A3A3A;
     margin: 26px 71px;
     text-align: center;
@@ -411,14 +410,14 @@
 .section__title {
 	color: #3A3A3A;
 	font: bolder 40px/136px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 518px;
+	padding-left: 513px;
 	margin-top: 400px;
 }
 
 .section__text {
 	color: #3A3A3A;
 	font: normal 30px/36px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 14px;
+	padding-left: 18px;
 	margin-top: -50px;
 	text-align: center;
 }
@@ -426,14 +425,15 @@
 .input {
 	background-color: #F0FBFF;
 	height: 559px;
+	margin: -8px;
 }
 
 
 .input__titel {
 	color: #3A3A3A;
 	font: bolder 40px/136px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 298px;
-	margin-top: 85px;
+	padding-left: 299px;
+	margin-top: 92px;
 }
 
 .input__window {
@@ -447,9 +447,9 @@
 
 .input-window__name {
 	color: #3A3A3A;
-	font: normal 18px/36px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 26px;
-	padding-top: 21px;
+	font: normal 20px/40px Gilroy, Arial, Helvetica, Sans-serif;
+	padding-left: 27px;
+	padding-top: 22px;
 }
 
 .post {
@@ -464,8 +464,8 @@
 .post__windowone {
 	color: #3A3A3A;
 	font: normal 20px/36px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 28px;
-	margin-top: 19px;
+	padding-left: 27px;
+	margin-top: 32px;
 	padding-top: 22px;	
 }
 
@@ -474,20 +474,21 @@
 	font: bolder 20px/36px Montserrat, Arial, Helvetica, Sans-serif;
 	width: 380px;
     height: 80px;
-    margin-left: 531px;
+    margin-left: 530px;
     margin-top: 74px;
 }
 
 .footer {
 	background-color: #00008B;
 	height: 120px;
-	margin-top: -20px;
+	margin-top: -15px;
+	margin-left: -8px;
 }
 
 .footer__signature {
 	color: #FFFFFF;
 	font: normal 15px/21px Roboto, Arial, Helvetica, Sans-serif;
-    padding: 53px 129px;
+    padding: 50px 129px;
     word-spacing: 2px;
 }
 
@@ -585,8 +586,8 @@
 
 .section__heading {
 	font: bold 20px/81px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 51px;
-	margin-top: 26px;
+	padding-left: 37px;
+	margin-top: 35px;
 }
 
 .blockone {
@@ -638,7 +639,7 @@
 
 .blocktwo__heading {
 	display: inline-block;
-	font: bold 20px/23px Gilroy, Arial, Helvetica, Sans-serif;
+	font: bold 20px/24px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
     margin: 0px 19px;
     text-align: center;
@@ -649,7 +650,7 @@
     color: #3A3A3A;
     margin: 14px 66px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .blockthree{
@@ -681,13 +682,14 @@
     color: #3A3A3A;
     margin: 14px 66px;
     text-align: center;
+    margin-left: 59px;
     margin-top: 17px;
 }
 
 .section__title {
     color: #3A3A3A;
     font: bolder 20px/48px Gilroy, Arial, Helvetica, Sans-serif;
-    padding-left: 60px;
+    padding-left: 53px;
     margin-top: 906px;
     display: block;
 }
@@ -701,9 +703,10 @@
     color: #3A3A3A;
     font: normal 18px/21px Gilroy, Arial, Helvetica, Sans-serif;
     padding-left: 0px;
-    margin-top: 10px;
+    margin-top: 18px;
     text-align: center;
     margin: 20px 20px;
+    padding-bottom: 41px; 
 }
 
 .input {
@@ -722,7 +725,7 @@
 	color: #3A3A3A;
 	text-align: center;
 	font: bolder 20px/25px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-top: 77px;
+	padding-top: 44px;
 }
 
 .input__window {
@@ -770,12 +773,14 @@
 .footer {
 	background-color: #00008B;
 	height: 60px;
-	margin-top: -24px;
+	margin-top: -25px;
+	width: 320px;
 }
 
 .footer__signature {
 	color: #FFFFFF;
 	font: normal 10px/1px Roboto, Arial, Helvetica, Sans-serif;
-    padding: 28px 27px;
+    padding: 29px 30px;
+    word-spacing: 1px;
 }
 }
