@@ -136,7 +136,7 @@
   }
 
   .blockthree__content {
-	  font: bolder 20px/26px Gilroy, Arial, Helvetica, Sans-serif;
+    font: bolder 20px/26px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3a3a3a;
     margin: 23px 62px;
     text-align: center;
@@ -149,12 +149,12 @@
     height: 401px;
     left: 130px;
     top: 974px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .blocktwo {
     position: absolute;
- 	  width: 380px;
+    width: 380px;
     height: 401px;
     left: 530px;
     top: 974px;
@@ -240,7 +240,7 @@
   }
 
   .footer {
-	  background-color: #00008b;
+    background-color: #00008b;
     height: 120px;
     margin-top: -20px;
   }
@@ -364,14 +364,15 @@
     background: #fff no-repeat url('img/money.svg');
     background-size: 386px 114px;
     padding: 89px 189px;
-    background-position: -2px 47px; 
+    background-position: -2px 47px;
+
   }
 
   .blockthree__heading {
     font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
     margin: 5px 36px;
-    text-align: center;	
+    text-align: center;
   }
 
   .blockthree__content {
@@ -467,11 +468,11 @@
     font: normal 20px/36px Gilroy, Arial, Helvetica, Sans-serif;
     padding-left: 27px;
     margin-top: 32px;
-    padding-top: 22px;	
+    padding-top: 22px;
   }
 
   .section__button {
-    background-color: #FFDA45;
+    background-color: #ffda45;
     font: bolder 20px/36px Montserrat, Arial, Helvetica, Sans-serif;
     width: 380px;
     height: 80px;
@@ -480,7 +481,7 @@
   }
 
   .footer {
-    background-color: #00008B;
+    background-color: #00008b;
     height: 120px;
     margin-top: -15px;
     margin-left: -8px;
@@ -522,7 +523,7 @@
     padding-top: 45px;
     color: #fff;
     font: normal 22px/1px Gilroy, Arial, Helvetica, Sans-serif;
-    padding-left: 29px; 
+    padding-left: 29px;
     margin-bottom: -78px;
   }
 
@@ -672,7 +673,7 @@
     display: inline-block;
     font: bold 20px/24px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
-    margin: 0px 19px;
+    margin: 0 19px;
     text-align: center;
   }
 
@@ -702,7 +703,6 @@
     color: #3a3a3a;
     font: normal 18px/21px Gilroy, Arial, Helvetica, Sans-serif;
     padding-left: 0;
-    margin-top: 18px;
     text-align: center;
     margin: 20px 20px 0 0;
     padding-bottom: 41px;
@@ -710,7 +710,7 @@
 
   .input {
     display: block;
-    background-color: #F0FBFF;
+    background-color: #f0fbff;
     width: 320px;
     height: 381px;
   }
