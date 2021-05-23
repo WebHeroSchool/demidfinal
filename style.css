@@ -1,74 +1,74 @@
 ﻿.body {
- 	font-family: Gilroy, Arial, Helvetica, Sans-serif;
-	margin: 0;
-	/*min-width: 200%;
-	max-width: 2000%;*/
+  font-family: Gilroy, Arial, Helvetica, Sans-serif;
+  margin: 0;
+
+  /* min-width: 200%;
+  max-width: 2000%; */
 }
 
 .header {
-	background-color: #3030c1;
-	height:840px;
-	margin: -8px;
-} 
+  background-color: #3030c1;
+  height: 840px;
+  margin: -8px;
+}
 
 .logo {
-	background: #3030C1;
-	padding-top: 0px;
-	color: #FFFFFF;
-	font: bolder 42px/142px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 128px; 
-    padding-top: 3px;
-    height: 93px;
+  background: #3030c1;
+  color: #FFF;
+  font: bolder 42px/142px Gilroy, Arial, Helvetica, Sans-serif;
+  padding-left: 128px;
+  padding-top: 3px;
+  height: 93px;
 } 
 
 .logoone {
-	background: #3030C1;
-	padding: 124px 105px 0px 0;
-	padding-top: 0px;
-	color: #ffcc33;
-	font: normal 23px/12px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 239px;
+  background: #3030C1;
+  padding: 124px 105px 0px 0px;
+  padding-top: 0px;
+  color: #fc3;
+  font: normal 23px/12px Gilroy, Arial, Helvetica, Sans-serif;
+  padding-left: 239px;
 }
 
 @media (max-width: 1920px) {
-.header__main {
-    background: #3030C1 top right no-repeat url('img/JPG.svg');
+  .header__main {
+    background: #3030c1 top right no-repeat url('img/JPG.svg');
     background-position: 747px 52px;
-}
+  }
 
 .header__heading {
-	padding: 107px 130px 0;
-	font: bold 45px/54px Gilroy, Arial, Helvetica, Sans-serif;
-	color: #FFFFFF;
+  padding: 107px 130px 0;
+  font: bold 45px/54px Gilroy, Arial, Helvetica, Sans-serif;
+  color: #FFFFFF;
 }
 
 .header__content {
-	font: bold 30px/38px Gilroy, Arial, Helvetica, Sans-serif;
-	color: #FFCC33;
-	padding-left: 129px;
-	margin-bottom: 5px;
-    padding-top: 1px;
+  font: bold 30px/38px Gilroy, Arial, Helvetica, Sans-serif;
+  color: #FC3;
+  padding-left: 129px;
+  margin-bottom: 5px;
+  padding-top: 1px;
 }
 
 .header__text {
-	font: bold 20px/21px Gilroy, Arial, Helvetica, Sans-serif;
-	color: #FFFFFF;
-	font-weight: normal;
-	padding-left: 129px;
-	padding-top: 4px;
-	margin-bottom: -2px;
+  font: bold 20px/21px Gilroy, Arial, Helvetica, Sans-serif;
+  color: #FFFFFF;
+  font-weight: normal;
+  padding-left: 129px;
+  padding-top: 4px;
+  margin-bottom: -2px;
 }
 
 .header__button {
-	font: bolder 22px/20px Montserrat, Arial, Helvetica, Sans-serif;
-	color: #3030c1;
-    padding: 16px 25px;
-    text-decoration: none;
-    border-radius: 0px;
-    transition: opacity .5s;
-    background: #ffcc33;
-    margin-left: 131px;
-    margin-top: 20px;
+  font: bolder 22px/20px Montserrat, Arial, Helvetica, Sans-serif;
+  color: #3030c1;
+  padding: 16px 25px;
+  text-decoration: none;
+  border-radius: 0px;
+  transition: opacity .5s;
+  background: #ffcc33;
+  margin-left: 131px;
+  margin-top: 20px;
 }
 
 .section__heading {
@@ -298,15 +298,15 @@
 }
 
 .header__button {
-	font: bolder 20px/20px Montserrat, Arial, Helvetica, Sans-serif;
-	color: #3030C1;
-	padding: 16px 23px;
-    text-decoration: none;
-    border-radius: 0px;
-    transition: opacity .5s;
-    background: #ffcc33;
-    margin-left: 131px;
-    margin-top: 20px;
+  font: bolder 20px/20px Montserrat, Arial, Helvetica, Sans-serif;
+  color: #3030c1;
+  padding: 16px 23px;
+  text-decoration: none;
+  border-radius: 0px;
+  transition: opacity .5s;
+  background: #ffcc33;
+  margin-left: 131px;
+  margin-top: 20px;
 }
 
 .section__heading {
@@ -427,7 +427,6 @@
 	height: 559px;
 	margin: -8px;
 }
-
 
 .input__titel {
 	color: #3A3A3A;
