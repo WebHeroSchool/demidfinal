@@ -101,20 +101,20 @@
 
   .blocktwo__image {
     background: #fff no-repeat url('img/portfolio.svg');
-	background-size: 380px 113px;
-	padding: 84px 192px;
-	background-position: 0 51px;
+	  background-size: 380px 113px;
+	  padding: 84px 192px;
+	  background-position: 0 51px;
   }
 
   .blocktwo__heading {
-	font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
+	  font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
     margin: 16px 21px;
-    text-align: center;	
+    text-align: center;
   }
 
   .blocktwo__content {
-	font: bolder 20px/25px Gilroy, Arial, Helvetica, Sans-serif;
+	  font: bolder 20px/25px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3a3a3a;
     margin: 16px 65px;
     text-align: center;
@@ -122,131 +122,132 @@
   }
 
   .blockthree__image {
-	background: #fff no-repeat url('img/money.svg');
-	background-size: 386px 114px;
+	  background: #fff no-repeat url('img/money.svg');
+	  background-size: 386px 114px;
     padding: 89px 189px;
-	background-position: -2px 47px; 
+	  background-position: -2px 47px;
   }
 
   .blockthree__heading {
-	font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
+	  font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
     margin: 5px 36px;
-    text-align: center;	
+    text-align: center;
   }
 
   .blockthree__content {
-	font: bolder 20px/26px Gilroy, Arial, Helvetica, Sans-serif;
+	  font: bolder 20px/26px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3a3a3a;
     margin: 23px 62px;
     text-align: center;
   }
-/*-----квадраты-----*/
+
+  /* -----квадраты----- */
   .blockone {
-	position: absolute;
- 	width: 380px;
-	height: 401px;
-	left: 130px;
-	top: 974px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    width: 380px;
+    height: 401px;
+	  left: 130px;
+    top: 974px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
   .blocktwo {
-	position: absolute;
- 	width: 380px;
-	height: 401px;
-	left: 530px;
-	top: 974px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+ 	  width: 380px;
+    height: 401px;
+    left: 530px;
+    top: 974px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
   .blockthree {
-	position: absolute;
- 	width: 380px;
-	height: 401px;
-	left: 930px;
-	top: 974px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    width: 380px;
+    height: 401px;
+    left: 930px;
+    top: 974px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
   .section__title {
-	color: #3a3a3a;
-	font: bolder 40px/136px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 518px;
-	margin-top: 400px;
+    color: #3a3a3a;
+    font: bolder 40px/136px Gilroy, Arial, Helvetica, Sans-serif;
+    padding-left: 518px;
+    margin-top: 400px;
   }
 
   .section__text {
-	color: #3a3a3a;
-	font: normal 30px/36px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 14px;
-	margin-top: -50px;
-	text-align: center;
+    color: #3a3a3a;
+    font: normal 30px/36px Gilroy, Arial, Helvetica, Sans-serif;
+    padding-left: 14px;
+    margin-top: -50px;
+    text-align: center;
   }
 
   .input {
-	background-color: #F0FBFF;
-	height: 559px;
+    background-color: #f0fbff;
+    height: 559px;
   }
 
   .input__titel {
-	color: #3a3a3a;
-	font: bolder 40px/136px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 298px;
-	margin-top: 85px;
+    color: #3a3a3a;
+    font: bolder 40px/136px Gilroy, Arial, Helvetica, Sans-serif;
+    padding-left: 298px;
+    margin-top: 85px;
   }
 
   .input__window {
-	width: 380px;
-	height: 80px;
-	margin-left: 530px;
-	margin-top: -29px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	background-color: #fff;
+    width: 380px;
+    height: 80px;
+    margin-left: 530px;
+    margin-top: -29px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #fff;
   }
 
   .input-window__name {
-	color: #3a3a3a;
-	font: normal 18px/36px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 26px;
-	padding-top: 21px;
+    color: #3a3a3a;
+    font: normal 18px/36px Gilroy, Arial, Helvetica, Sans-serif;
+    padding-left: 26px;
+    padding-top: 21px;
   }
 
   .post {
-	width: 380px;
-	height: 80px;
-	margin-left: 530px;
-	margin-top: 29px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	background-color: #fff;
+    width: 380px;
+    height: 80px;
+    margin-left: 530px;
+    margin-top: 29px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #fff;
   }
 
   .post__windowone {
-	color: #3a3a3a;
-	font: normal 20px/36px Gilroy, Arial, Helvetica, Sans-serif;
-	padding-left: 28px;
-	margin-top: 19px;
-	padding-top: 22px;	
+    color: #3a3a3a;
+    font: normal 20px/36px Gilroy, Arial, Helvetica, Sans-serif;
+    padding-left: 28px;
+    margin-top: 19px;
+    padding-top: 22px;	
   }
 
   .section__button {
-	background-color: #FFDA45;
-	font: bolder 20px/36px Montserrat, Arial, Helvetica, Sans-serif;
-	width: 380px;
+    background-color: #FFDA45;
+    font: bolder 20px/36px Montserrat, Arial, Helvetica, Sans-serif;
+    width: 380px;
     height: 80px;
     margin-left: 531px;
     margin-top: 74px;
   }
 
   .footer {
-	background-color: #00008B;
-	height: 120px;
-	margin-top: -20px;
+	  background-color: #00008B;
+	  height: 120px;
+	  margin-top: -20px;
   }
 
   .footer__signature {
-  color: #fff;
-	font: normal 15px/21px Roboto, Arial, Helvetica, Sans-serif;
+    color: #fff;
+	  font: normal 15px/21px Roboto, Arial, Helvetica, Sans-serif;
     padding: 53px 129px;
     word-spacing: 2px;
   }
@@ -256,15 +257,15 @@
   }
 
   .header__mobileone {
-	display: none;
+	  display: none;
   }
 
   .section__mobile {
-	display: none;
+    display: none;
   }
 
   .input__mobile {
-	display: none;
+    display: none;
   }
 }
 
@@ -442,7 +443,7 @@
     margin-top: -29px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background-color: #fff;
-}
+  }
 
   .input-window__name {
     color: #3a3a3a;
@@ -529,7 +530,7 @@
     color: #fc3;
     font: normal 12px/0px Gilroy, Arial, Helvetica, Sans-serif;
     padding-left: 86px;
-  } 
+  }
 
   .header__main {
     background: #3030c1 no-repeat url('img/JPG.svg');
@@ -645,7 +646,7 @@
 
   .blocktwo__content {
     font: bolder 10px/12px Gilroy, Arial, Helvetica, Sans-serif;
-    color: #3A3A3A;
+    color: #3a3a3a;
     margin: 14px 66px;
     text-align: center;
     margin-top: 8px;
@@ -748,7 +749,7 @@
     margin-left: 30px;
     margin-top: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #FFFFFF;
+    background-color: #fff;
   }
 
   .post__windowone {
