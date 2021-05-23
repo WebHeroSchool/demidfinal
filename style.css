@@ -101,20 +101,20 @@
 
   .blocktwo__image {
     background: #fff no-repeat url('img/portfolio.svg');
-	  background-size: 380px 113px;
-	  padding: 84px 192px;
-	  background-position: 0 51px;
+    background-size: 380px 113px;
+    padding: 84px 192px;
+    background-position: 0 51px;
   }
 
   .blocktwo__heading {
-	  font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
+    font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
     margin: 16px 21px;
     text-align: center;
   }
 
   .blocktwo__content {
-	  font: bolder 20px/25px Gilroy, Arial, Helvetica, Sans-serif;
+    font: bolder 20px/25px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3a3a3a;
     margin: 16px 65px;
     text-align: center;
@@ -122,14 +122,14 @@
   }
 
   .blockthree__image {
-	  background: #fff no-repeat url('img/money.svg');
-	  background-size: 386px 114px;
+    background: #fff no-repeat url('img/money.svg');
+    background-size: 386px 114px;
     padding: 89px 189px;
-	  background-position: -2px 47px;
+    background-position: -2px 47px;
   }
 
   .blockthree__heading {
-	  font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
+    font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
     margin: 5px 36px;
     text-align: center;
@@ -147,7 +147,7 @@
     position: absolute;
     width: 380px;
     height: 401px;
-	  left: 130px;
+    left: 130px;
     top: 974px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
@@ -227,11 +227,11 @@
     font: normal 20px/36px Gilroy, Arial, Helvetica, Sans-serif;
     padding-left: 28px;
     margin-top: 19px;
-    padding-top: 22px;	
+    padding-top: 22px;
   }
 
   .section__button {
-    background-color: #FFDA45;
+    background-color: #ffda45;
     font: bolder 20px/36px Montserrat, Arial, Helvetica, Sans-serif;
     width: 380px;
     height: 80px;
@@ -240,24 +240,24 @@
   }
 
   .footer {
-	  background-color: #00008B;
-	  height: 120px;
-	  margin-top: -20px;
+	  background-color: #00008b;
+    height: 120px;
+    margin-top: -20px;
   }
 
   .footer__signature {
     color: #fff;
-	  font: normal 15px/21px Roboto, Arial, Helvetica, Sans-serif;
+    font: normal 15px/21px Roboto, Arial, Helvetica, Sans-serif;
     padding: 53px 129px;
     word-spacing: 2px;
   }
 
   .header__mobile {
-	display: none;
+    display: none;
   }
 
   .header__mobileone {
-	  display: none;
+    display: none;
   }
 
   .section__mobile {
@@ -314,14 +314,14 @@
     color: #3a3a3a;
     font: bolder 40px/136px Gilroy, Arial, Helvetica, Sans-serif;
     padding-left: 506px;
-    margin: 20px; 
+    margin: 20px;
   }
 
   .blockone__image {
     background: #fff no-repeat url('img/star.svg');
     background-size: 386px 114px;
     padding: 90px 189px;
-    background-position: -2px 47px; 
+    background-position: -2px 47px;
   }
 
   .blockone__heading {
@@ -349,7 +349,7 @@
     font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
     margin: 16px 21px;
-    text-align: center;	
+    text-align: center;
   }
 
   .blocktwo__content {
@@ -380,7 +380,8 @@
     margin: 23px 62px;
     text-align: center;
   }
-/*-----квадраты-----*/
+
+  /* -----квадраты----- */
   .blockone {
     position: absolute;
     width: 380px;
@@ -424,7 +425,7 @@
   }
 
   .input {
-    background-color: #F0FBFF;
+    background-color: #f0fbff;
     height: 559px;
     margin: -8px;
   }
@@ -547,14 +548,13 @@
     display: none;
   }
 
-  .header__mobile { 
+  .header__mobile {
     display: block;
-    text-align: right;
     padding-left: 29px;
     text-align: -webkit-match-parent;
     font: bold 25px/31px Gilroy, Arial, Helvetica, Sans-serif;
-    color: white; 
-    padding-top: 27px; 
+    color: white;
+    padding-top: 27px;
   }
 
   .header__content {
@@ -640,7 +640,7 @@
     display: inline-block;
     font: bold 20px/24px Gilroy, Arial, Helvetica, Sans-serif;
     color: #3030c1;
-    margin: 0px 19px;
+    margin: 0 19px;
     text-align: center;
   }
 
@@ -652,7 +652,7 @@
     margin-top: 8px;
   }
 
-  .blockthree{
+  .blockthree {
     position: absolute;
     width: 259px;
     height: 273px;
@@ -697,27 +697,27 @@
     display: none;
   }
 
-  .section__mobile{
+  .section__mobile {
     display: block;
     color: #3a3a3a;
     font: normal 18px/21px Gilroy, Arial, Helvetica, Sans-serif;
-    padding-left: 0px;
+    padding-left: 0;
     margin-top: 18px;
     text-align: center;
-    margin: 20px 20px 0px 0px;
-    padding-bottom: 41px; 
+    margin: 20px 20px 0 0;
+    padding-bottom: 41px;
   }
 
   .input {
     display: block;
     background-color: #F0FBFF;
     width: 320px;
-    height: 381px;	
+    height: 381px;
   }
 
   .input__titel {
     display: none;
-  } 
+  }
 
   .input__mobile {
     display: block;
@@ -757,7 +757,7 @@
     font: normal 10px/26px Gilroy, Arial, Helvetica, Sans-serif;
     padding-left: 16px;
     margin-top: 11px;
-    padding-top: 11px;	
+    padding-top: 11px;
   }
 
   .section__button {
