@@ -1,4 +1,4 @@
-﻿.body {
+﻿body {
   font-family: Gilroy, Arial, Helvetica, Sans-serif;
   margin: 0;
 
@@ -270,9 +270,14 @@
 }
 
 @media (max-width: 1442px) {
+  body {
+    margin: 8px;
+  }
+
   .header__main {
     background: #3030c1 top right no-repeat url('img/JPG.svg');
     background-position: 747px 52px;
+    height: 515px;
   }
 
   .header__heading {
@@ -482,6 +487,7 @@
   .footer {
     background-color: #00008b;
     height: 120px;
+    width: 1440px;
     margin-top: -15px;
     margin-left: -8px;
   }
@@ -511,6 +517,10 @@
 }
 
 @media (max-width: 322px) {
+  body {
+    margin: 0;
+  }
+
   .header {
     width: 320px;
     height: 595px;
