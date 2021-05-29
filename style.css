@@ -17,7 +17,7 @@
   font: bolder 41px/141px Gilroy-Bold, Arial, Helvetica, Sans-serif;
   padding-left: 132px;
   padding-top: 2px;
-  height: 93px; 
+  height: 93px;
 }
 
 .logoone {
@@ -526,8 +526,6 @@
 @media (max-width: 830px) {
   body {
     margin: 8px;
-    /*min-width: 810px;
-    max-width: 820px;*/
   }
 
   .header {
