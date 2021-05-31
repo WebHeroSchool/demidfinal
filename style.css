@@ -420,11 +420,20 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
+  .section {
+   max-width: 1440px; 
+  }
+
+  .section__main {
+   max-width: 1440px; 
+  }
+
   .section__title {
     color: #3a3a3a;
     font: bolder 40px/134px Gilroy-Black, Arial, Helvetica, Sans-serif;
     padding-left: 513px;
     margin-top: 400px;
+    min-width: 1440px;
   }
 
   .section__text {
@@ -531,8 +540,6 @@
   .header {
     background-color: #3030c1;
     height: 840px;
-    min-width: 177%;
-    max-width: 2000%;
   }
 
   .header__main {
@@ -581,8 +588,6 @@
     font: bolder 40px/136px Gilroy-Black, Gilroy-Light, Gilroy-ExtraBold, Gilroy-Bold, Arial, Helvetica, Sans-serif;
     padding-left: 506px;
     margin: 20px;
-    min-width: 200%;
-    max-width: 2000%;
   }
 
   .blockone__image {
@@ -682,8 +687,6 @@
     font: bolder 40px/136px Gilroy-Black, Gilroy-Light, Gilroy-ExtraBold, Gilroy-Bold, Arial, Helvetica, Sans-serif;
     padding-left: 513px;
     margin-top: 400px;
-    min-width: 200%;
-    max-width: 2000%;
   }
 
   .section__text {
@@ -692,15 +695,12 @@
     padding-left: 18px;
     margin-top: -50px;
     text-align: center;
-    min-width: 200%;
-    max-width: 2000%;
   }
 
   .input {
     background-color: #f0fbff;
     height: 559px;
     margin: -8px;
-    min-width: 177%;
   }
 
   .input__titel {
@@ -708,8 +708,6 @@
     font: bolder 40px/136px Gilroy-Black, Gilroy-Light, Gilroy-ExtraBold, Gilroy-Bold, Arial, Helvetica, Sans-serif;
     padding-left: 299px;
     margin-top: 92px;
-    min-width: 200%;
-    max-width: 2000%;
   }
 
   .input__window {
