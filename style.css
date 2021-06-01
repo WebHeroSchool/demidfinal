@@ -14,7 +14,6 @@
 
 .logo {
   background: #3030c1;
-  color: #fff;
   font: bolder 42px/142px Gilroy, Arial, Helvetica, Sans-serif;
   padding-left: 128px;
   padding-top: 3px;
@@ -33,6 +32,7 @@
 .footer {
   min-width: 100%;
   max-width: 2000%; }
+}
 
 @media (max-width: 1920px) {
   .header__main {
