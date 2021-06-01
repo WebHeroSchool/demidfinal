@@ -281,7 +281,7 @@
 }
 
 @font-face {
-  font-family: 'Gilroy-Bold';
+font-family: 'Gilroy-Bold';
   src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
   src:
     url('fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */

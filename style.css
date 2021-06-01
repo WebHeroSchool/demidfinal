@@ -337,9 +337,10 @@ display: inline-block;
 .blocthree__heading {
 display: inline-block;
 }
+
   margin: 0;
-  max-width: 2000%;
-  justify-content: space-between;
+  max-width: 2000%; 
+  justify-content: space-between; 
   min-width: 100vh;
 }
 
@@ -369,7 +370,7 @@ display: inline-block;
 
 .footer {
   min-width: 100%;
-  max-width: 2000%;
+  max-width: 2000%; }
 }
 
 @media (max-width: 1920px) {
