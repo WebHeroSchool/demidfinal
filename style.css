@@ -2,7 +2,7 @@
   margin: 0;
   max-width: 2000%;
   justify-content: space-between;
-  min-width: 100vh;
+  min-width: 100%;
 }
 
 .header {
@@ -31,13 +31,13 @@
 
 .footer {
   min-width: 100%;
-  max-width: 2000%;
 }
 
 @media (max-width: 1920px) {
   .header__main {
     background: #3030c1 top right no-repeat url('img/JPG.svg');
     background-position: 747px 52px;
+    height: 527px;
   }
 
   .header__heading {
@@ -274,10 +274,11 @@
 @media (max-width: 1442px) {
   body {
     margin: 8px;
+    min-width: 100%;
   }
 
   .header {
-    width: 1440px;
+    min-width: 100%;
   }
 
   .header__main {
@@ -421,11 +422,11 @@
   }
 
   .section {
-   max-width: 1440px; 
+   min-width: 100%; 
   }
 
   .section__main {
-   max-width: 1440px; 
+   min-width: 100%; 
   }
 
   .section__title {
@@ -433,7 +434,7 @@
     font: bolder 40px/134px Gilroy-Black, Arial, Helvetica, Sans-serif;
     padding-left: 513px;
     margin-top: 400px;
-    min-width: 1440px;
+    max-width: 100%;
   }
 
   .section__text {
@@ -448,7 +449,7 @@
     background-color: #f0fbff;
     height: 559px;
     margin: -7px;
-    width: 1440px;
+    min-width: 100%;
   }
 
   .input__titel {
@@ -503,7 +504,7 @@
   .footer {
     background-color: #00008b;
     height: 120px;
-    width: 1440px;
+    min-width: 100%;
     margin-top: -17px;
     margin-left: -8px;
   }
@@ -532,7 +533,7 @@
   }
 }
 
-@media (max-width: 830px) {
+@media screen and (min-width: 322px) and (max-width: 1300px) {
   body {
     margin: 8px;
   }
@@ -583,17 +584,24 @@
     margin-top: 20px;
   }
 
+  /*.section { 
+    display: grid;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;*/
+  }
+
   .section__heading {
     color: #3a3a3a;
     font: bolder 40px/136px Gilroy-Black, Gilroy-Light, Gilroy-ExtraBold, Gilroy-Bold, Arial, Helvetica, Sans-serif;
     padding-left: 506px;
     margin: 20px;
-  }
+  } 
 
   .blockone__image {
     background: #fff no-repeat url('img/star.svg');
     background-size: 386px 114px;
-    padding: 90px 189px;
+    padding: 24% 33%;
     background-position: -2px 47px;
   }
 
@@ -654,9 +662,18 @@
     text-align: center;
   }
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
   /* -----квадраты----- */
   .blockone {
+    display: flex;
+    flex-direction: column;
     position: absolute;
+    flex-shrink: 1;
     width: 380px;
     height: 401px;
     left: 130px;
@@ -665,6 +682,8 @@
   }
 
   .blocktwo {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 380px;
     height: 401px;
@@ -674,6 +693,8 @@
   }
 
   .blockthree {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 380px;
     height: 401px;
@@ -755,7 +776,7 @@
   .footer {
     background-color: #00008b;
     height: 120px;
-    width: 1440px;
+    min-width: 100%;
     margin-top: -15px;
     margin-left: -8px;
   }
