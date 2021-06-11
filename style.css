@@ -339,9 +339,9 @@ display: inline-block;
 }
 
   margin: 0;
-  max-width: 2000%; 
-  justify-content: space-between; 
-  min-width: 100vh;
+  max-width: 2000%;
+  justify-content: space-between;
+  min-width: 100%;
 }
 
 .header {
@@ -370,13 +370,13 @@ display: inline-block;
 
 .footer {
   min-width: 100%;
-  max-width: 2000%; }
 }
 
 @media (max-width: 1920px) {
   .header__main {
     background: #3030c1 top right no-repeat url('img/JPG.svg');
     background-position: 747px 52px;
+    height: 527px;
   }
 
   .header__heading {
@@ -613,10 +613,11 @@ display: inline-block;
 @media (max-width: 1442px) {
   body {
     margin: 8px;
+    min-width: 100%;
   }
 
   .header {
-    width: 1440px;
+    min-width: 100%;
   }
 
   .header__main {
@@ -758,11 +759,11 @@ display: inline-block;
   }
 
   .section {
-   max-width: 1440px; 
+   min-width: 100%; 
   }
 
   .section__main {
-   max-width: 1440px; 
+   min-width: 100%; 
   }
 
   .section__title {
@@ -770,7 +771,7 @@ display: inline-block;
     font: bolder 40px/134px Gilroy-Black, Arial, Helvetica, Sans-serif;
     padding-left: 513px;
     margin-top: 400px;
-    min-width: 1440px;
+    max-width: 100%;
   }
 
   .section__text {
@@ -785,7 +786,7 @@ display: inline-block;
     background-color: #f0fbff;
     height: 559px;
     margin: -7px;
-    width: 1440px;
+    min-width: 100%;
   }
 
   .input__titel {
@@ -840,7 +841,7 @@ display: inline-block;
   .footer {
     background-color: #00008b;
     height: 120px;
-    width: 1440px;
+    min-width: 100%;
     margin-top: -17px;
     margin-left: -8px;
   }
@@ -869,7 +870,7 @@ display: inline-block;
   }
 }
 
-@media (max-width: 830px) {
+@media screen and (min-width: 322px) and (max-width: 1300px) {
   body {
     margin: 8px;
   }
@@ -920,17 +921,24 @@ display: inline-block;
     margin-top: 20px;
   }
 
+  /*.section { 
+    display: grid;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;*/
+  }
+
   .section__heading {
     color: #3a3a3a;
     font: bolder 40px/136px Gilroy-Black, Gilroy-Light, Gilroy-ExtraBold, Gilroy-Bold, Arial, Helvetica, Sans-serif;
     padding-left: 506px;
     margin: 20px;
-  }
+  } 
 
   .blockone__image {
     background: #fff no-repeat url('img/star.svg');
     background-size: 386px 114px;
-    padding: 90px 189px;
+    padding: 24% 33%;
     background-position: -2px 47px;
   }
 
@@ -991,9 +999,18 @@ display: inline-block;
     text-align: center;
   }
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
   /* -----квадраты----- */
   .blockone {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /*position: absolute;*/
+    flex-shrink: 1;
     width: 380px;
     height: 401px;
     left: 130px;
@@ -1002,6 +1019,8 @@ display: inline-block;
   }
 
   .blocktwo {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 380px;
     height: 401px;
@@ -1011,6 +1030,8 @@ display: inline-block;
   }
 
   .blockthree {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 380px;
     height: 401px;
@@ -1092,7 +1113,7 @@ display: inline-block;
   .footer {
     background-color: #00008b;
     height: 120px;
-    width: 1440px;
+    min-width: 100%;
     margin-top: -15px;
     margin-left: -8px;
   }
