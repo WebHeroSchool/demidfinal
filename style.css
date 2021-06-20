@@ -271,7 +271,7 @@
   }
 
   .section__mobile {
-   display: none;
+     display: none;
   }
 
   .input__mobile {
@@ -280,7 +280,6 @@
 }
 
 @media (min-width: 1440px) and (max-width: 1450px) {
-
   body {
     margin: 0;
     width: 100%;
