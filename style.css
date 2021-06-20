@@ -363,9 +363,7 @@
 
   .blocktwo__heading {
     font: bolder 30px/37px Gilroy-Black, Arial, Helvetica, Sans-serif;
-    color: #3030c1;
-    margin: 16px 21px;
-    text-align: center;
+    font: bolder 30px/37px Gilroy, Arial, Helvetica, Sans-serif;
   }
 
   .blocktwo__content {
