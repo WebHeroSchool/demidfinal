@@ -1,10 +1,4 @@
-﻿body {
-  justify-content: space-between;
-  margin: auto;
-  width: 86%;
-}
-
-.header {
+﻿.header {
   background-color: #3030c1;
   height: 840px;
   margin: 0;
@@ -33,7 +27,7 @@
 
 @media (min-width: 1451px) and (max-width: 2000px) {
 
-.body {
+body {
   margin: auto;
   width: 86%;
 }
