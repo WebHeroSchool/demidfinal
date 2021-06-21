@@ -1,4 +1,4 @@
-﻿.header {
+﻿/*.header {
   background-color: #3030c1;
   height: 840px;
   margin: 0;
@@ -158,7 +158,7 @@
   }
 
   /* -----квадраты----- */
-  .blockone {
+  /*.blockone {
     position: absolute;
     width: 380px;
     height: 401px;
@@ -279,10 +279,33 @@
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1450px) {
+@media (min-width: 1440px) and (max-width: 1450px) {*/
   body {
     margin: 0;
     width: 100%;
+  }
+
+  .header {
+    background-color: #3030c1;
+    height: 840px;
+    margin: 0;
+  }
+
+  .logo {
+    background: #3030c1;
+    color: #fff;
+    font: bolder 41px/141px Gilroy-Bold, Arial, Helvetica, Sans-serif;
+    padding-left: 132px;
+    padding-top: 2px;
+    height: 93px;
+  }
+
+.logoone {
+  background: #3030c1;
+  padding: 0 105px 0 0;
+  color: #fc3;
+  font: normal 23px/12px Gilroy-Light, Arial, Helvetica, Sans-serif;
+  padding-left: 239px;
   }
 
   .header__main {
@@ -525,9 +548,10 @@
   }
 }
 
-@media (min-width: 323px) and (max-width: 1439px) {
+@media (min-width: 323px) and (max-width: 1430px) {
   body {
-    margin: 8px;
+    margin: auto;
+    width: 86%;
   }
 
   .logo {
