@@ -299,6 +299,7 @@
 }
 
 @media (max-width: 500px) {
+  
   .section__heading {
     color: #3a3a3a;
     font: bolder 40px/136px Gilroy-Black, Arial, Helvetica, Sans-serif;
