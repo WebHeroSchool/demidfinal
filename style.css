@@ -311,7 +311,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0 105px 0 106px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .input__titel {
