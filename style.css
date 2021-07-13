@@ -72,6 +72,7 @@
   margin-top: 20px;
 }
 
+<<<<<<< Updated upstream
  .header__button:hover {
     opacity: .5;
     width: 50px;
@@ -118,6 +119,48 @@
     100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
+=======
+.header__button:hover {
+  background: #fc3;
+  border-radius: 100%;
+  width: 150px;
+  height: 100px;
+  -webkit-animation: pulsing 2s;
+  animation: pulsing 2s;
+}
+
+@-webkit-keyframes pulsing {
+  0% {
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+  50% {
+  -webkit-transform: scale(1., 1.);
+  transform: scale(1., 1.);
+}
+
+  100% {
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5)
+}
+
+  50% {
+  -webkit-transform: scale(1., 1.);
+  transform: scale(1., 1.);
+}
+
+  100% {
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+>>>>>>> Stashed changes
   }
 }
 
@@ -203,7 +246,11 @@
   margin-top: -44px;
 }
 
+<<<<<<< Updated upstream
   /* -----квадраты----- */
+=======
+/* -----квадраты----- */
+>>>>>>> Stashed changes
 .blockone {
   width: 380px;
   height: 401px;
@@ -318,6 +365,7 @@
 }
 
 .section__button:hover {
+<<<<<<< Updated upstream
     opacity: .5;
     width: 100px;
     height: 100px;
@@ -363,6 +411,47 @@
     100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
+=======
+  background: #fc3;
+  border-radius: 100%;
+  width: 250px;
+  height: 100px;
+  -webkit-animation: pulsing 2s;
+  animation: pulsing 2s;
+}
+
+@-webkit-keyframes pulsing {
+  0% {
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5)
+}
+
+  50% {
+  -webkit-transform: scale(1.0, 1.0);
+  transform: scale(1.0, 1.0);
+}
+
+  100% {
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5)
+}
+
+  50% {
+  -webkit-transform: scale(1.0, 1.0);
+  transform: scale(1.0, 1.0);
+}
+
+  100% {
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+>>>>>>> Stashed changes
   }
 }
 
@@ -396,8 +485,12 @@
 }
 
 @media (max-width: 768px) {
+<<<<<<< Updated upstream
 
 .header__main {
+=======
+  .header__main {
+>>>>>>> Stashed changes
     background: #3030c1 no-repeat url('img/JPG.svg');
     background-position: 62px 314px;
     background-size: 262px 517px;
@@ -527,7 +620,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+<<<<<<< Updated upstream
     background-color: #fff; 
+=======
+    background-color: #fff;
+>>>>>>> Stashed changes
   }
 
   .post__windowone {
