@@ -623,17 +623,17 @@
 
   .header {
     max-width: 320px;
-    height: 586px;
+    height: 595px;
     background-color: #3030c1;
   }
 
   .logo {
     background: #3030c1;
-    padding-top: 37px;
+    padding-top: 45px;
     color: #fff;
     font: normal 22px/1px Gilroy-Bold, Arial, Helvetica, Sans-serif;
     padding-left: 29px;
-    margin-bottom: -80px;
+    margin-bottom: -79px;
   }
 
   .logoone {
