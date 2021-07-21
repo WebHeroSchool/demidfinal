@@ -383,7 +383,7 @@
 
 @media (max-width: 1205px) {
   .header__heading {
-    padding: 105px 9% 0;
+    padding: 105px 367px 0 9%;
     font: bold 3.7vw/5vh Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
     color: #fff;
   }
@@ -402,6 +402,11 @@
     font-weight: normal;
     padding-left: 9%;
     padding-top: 24px;
+    padding-right: 29rem;
+  }
+
+  .header__main {
+    background-size: 45%;
   }
 
   .section__heading {
@@ -489,27 +494,37 @@
 @media (max-width: 768px) {
   .header__main {
     background: #3030c1 top right no-repeat url(img/JPG.svg);
-    background-position: 9% 101%;
+    background-position: 54% 0%;
     height: 81%;
     text-align: -webkit-match-parent;
-    background-size: 35%;
+    background-size: 51%;
   }
 
   .header__heading {
-    padding: 105px 9% 0;
+    padding: 327px 0 0;
     font: bold 4.5vw Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+    text-align: center;
   }
 
   .header__button {
     margin-top: 5px;
+    margin-left: 6rem;
+    position: static;
+    top: 3%;
+    left: 4%;
+    font: bolder 3vw Montserrat, Arial, Helvetica, Sans-serif;
   }
 
   .header__content {
-    font: bold 4.5vw/3vh Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+    font: bold 4.5vw/4vh Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+    padding: 9px;
+    text-align: center;
   }
 
   .header__text {
     font: bold 2.8vw/2.5vh Gilroy-Light, Arial, Helvetica, Sans-serif;
+    padding: 0;
+    text-align: center;
   }
 
   .section__heading {
@@ -593,25 +608,29 @@
   }
 
   .input__window {
-    max-width: 19rem;
-    transform: translate(-58%, -50%);
+    max-width: 17rem;
+    transform: translate(-50%, -50%);
   }
 
   .post {
-    max-width: 19rem;
-    transform: translate(-58%, 38%);
+    max-width: 17rem;
+    transform: translate(-50%, 50%);
   }
 
   .post__windowone {
     font: normal 18px/34px Gilroy-Light, Arial, Helvetica, Sans-serif;
     padding-left: 25px;
-    line-height: 2;
+    line-height: 1;
   }
 
   .section__button {
     font: bolder 20px/36px Montserrat, Arial, Helvetica, Sans-serif;
-    max-width: 19rem;
-    transform: translate(-58%, 38%);
+    max-width: 17rem;
+    transform: translate(-50%, 50%);
+  }
+
+  .footer {
+    text-align: center;
   }
 }
 
