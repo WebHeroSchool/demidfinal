@@ -381,6 +381,16 @@
   display: none;
 }
 
+@media (max-width: 1380px) {
+.blocktwo {
+  margin-bottom: 15px;
+  }
+
+.section__button {
+  transform: translate(-50%, -18%);
+  }
+}
+
 @media (max-width: 1205px) {
   .header__heading {
     padding: 105px 367px 0 9%;
@@ -641,7 +651,7 @@
   }
 
   .header {
-    max-width: 320px;
+    min-width: 320px;
     height: 595px;
     background-color: #3030c1;
   }
