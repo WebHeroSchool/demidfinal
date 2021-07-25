@@ -509,9 +509,9 @@
   .header__button {
     margin-top: 5px;
     margin-left: 6rem;
-    position: static;
+    position: sticky;
     top: 3%;
-    left: 4%;
+    left: 34%;
     font: bolder 3vw Montserrat, Arial, Helvetica, Sans-serif;
   }
 
