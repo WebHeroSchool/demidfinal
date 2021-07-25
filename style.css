@@ -143,7 +143,7 @@
 .blocktwo__image {
   background: #fff no-repeat url('img/portfolio.svg');
   background-size: 380px 113px;
-  padding: 84px 192px;
+  padding: 84px 189px;
   background-position: 0 51px;
 }
 
@@ -384,7 +384,7 @@
 @media (max-width: 1205px) {
   .header__heading {
     padding: 105px 367px 0 9%;
-    font: bold 3.7vw/5vh Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+    font: bold 3.3vw/5vh Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
     color: #fff;
   }
 
@@ -397,7 +397,7 @@
   }
 
   .header__text {
-    font: bold 1.8vw/2.5vh Gilroy-Light, Arial, Helvetica, Sans-serif;
+    font: bold 1.6vw/2.5vh Gilroy-Light, Arial, Helvetica, Sans-serif;
     color: #fff;
     font-weight: normal;
     padding-left: 9%;
@@ -563,7 +563,7 @@
   }
 
   .blockone__image {
-    padding: 70px 156px;
+    padding: 70px 189px;
     background-position: center;
   }
 
@@ -577,7 +577,7 @@
   }
 
   .blocktwo__image {
-    padding: 70px 156px;
+    padding: 70px 189px;
     background-position: center;
   }
 
@@ -591,7 +591,7 @@
   }
 
   .blockthree__image {
-    padding: 70px 156px;
+    padding: 70px 189px;
     background-position: center;
   }
 
