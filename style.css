@@ -523,6 +523,7 @@
     top: 3%;
     left: 34%;
     font: bolder 3vw Montserrat, Arial, Helvetica, Sans-serif;
+    transform: translate(-5%, 50%);
   }
 
   .header__content {
@@ -570,24 +571,30 @@
 
   .blockone {
     height: 384px;
+    max-width: 94vw;
   }
 
   .blockone__image {
-    padding: 70px 189px;
+    padding-left: 25vw;
     background-position: center;
   }
 
   .blockone__heading {
-    font: bolder 27px/38px Gilroy-Black, Arial, Helvetica, Sans-serif;
-    margin: 3px 43px;
+    font: bolder 25px/38px Gilroy-Black, Arial, Helvetica, Sans-serif;
+    margin: 3px 28px;
+  }
+
+  .blockone__content {
+    margin: 1vh 40px;
   }
 
   .blocktwo {
     height: 384px;
+    max-width: 94vw;
   }
 
   .blocktwo__image {
-    padding: 70px 189px;
+    padding-left: 28vw;
     background-position: center;
   }
 
@@ -596,18 +603,29 @@
     margin: 3px 43px;
   }
 
+  .blocktwo__content {
+    margin: 1vh 6vw;
+  }
+
   .blockthree {
     height: 384px;
+    max-width: 94vw;
   }
 
   .blockthree__image {
-    padding: 70px 189px;
+    padding-left: 25vw;
     background-position: center;
+    padding-top: inherit;
+    padding-bottom: 10vh;
   }
 
   .blockthree__heading {
     font: bolder 27px/38px Gilroy-Black, Arial, Helvetica, Sans-serif;
     margin: 3px 43px;
+  }
+
+  .blockthree__content {
+    margin: 1vh 69px;
   }
 
   .block {
@@ -627,8 +645,12 @@
     transform: translate(-50%, 50%);
   }
 
+.input-window__name {
+    font: normal 1rem Gilroy-Light, Arial, Helvetica, Sans-serif;
+  }
+
   .post__windowone {
-    font: normal 18px/34px Gilroy-Light, Arial, Helvetica, Sans-serif;
+    font: normal 1rem Gilroy-Light, Arial, Helvetica, Sans-serif;
     padding-left: 25px;
     line-height: 1;
   }
