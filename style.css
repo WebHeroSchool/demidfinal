@@ -12,18 +12,17 @@
 .logo {
   background: #3030c1;
   color: #fff;
-  font: bolder 42px/138px Gilroy-Bold, Arial, Helvetica, Sans-serif;
-  padding-left: 9%;
-  padding-top: 4px;
+  font: bolder 41px/141px Gilroy-Bold, Arial, Helvetica, Sans-serif;
+  padding-left: 9.2%;
+  padding-top: 3px;
   height: 93px;
 }
 
 .logoone {
   background: #3030c1;
   color: #fc3;
-  font: normal 23px/11px Gilroy-Light, Arial, Helvetica, Sans-serif;
-  padding-left: 17%;
-  margin-left: -0.5%;
+  font: normal 23px/12px Gilroy-Light, Arial, Helvetica, Sans-serif;
+  padding-left: 16.5%;
 }
 
 .header__main {
@@ -38,16 +37,14 @@
   padding: 105px 9% 0;
   font: bold 45px/54px Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
   color: #fff;
-  font-size: 3.1vw;
 }
 
 .header__content {
-  font: bold 30px/37px Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+  font: bold 30px/38px Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
   color: #fc3;
   padding-left: 9%;
-  margin-bottom: 5px;
-  padding-top: 3px;
-  font-size: 2.1vw;
+  margin-bottom: 3px;
+  padding-top: 2px;
 }
 
 .header__text {
@@ -56,8 +53,6 @@
   font-weight: normal;
   padding-left: 9%;
   padding-top: 6px;
-  margin-bottom: -2px;
-  font-size: 1.38vw;
 }
 
 .header__button {
@@ -68,99 +63,51 @@
   border-radius: 0;
   transition: opacity 0.5s;
   background: #fc3;
-  margin-left: 9%;
-  margin-top: 20px;
-}
-
-<<<<<<< Updated upstream
- .header__button:hover {
-    opacity: .5;
-    width: 50px;
-    height: 50px;
-    background: #ffd22e;
-    border-radius: 50%;
-    cursor: pointer;
-    text-align: center;
+  margin-left: 9.1%;
+  margin-top: 19px;
 }
 
 .header__button:hover {
-    background: #fc3;
-    border-radius: 100%;
-    width: 150px;
-    height: 100px;
-    -webkit-animation: pulsing 2s;
-    animation: pulsing 2s;
-}
-
-@-webkit-keyframes pulsing {
-    0% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5)
-}
-    50% {
-    -webkit-transform: scale(1.0, 1.0);
-    transform: scale(1.0, 1.0);
-}
-    100% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5);
-  }
-}
-
-  @keyframes pulsing {
-    0% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5)
-  }
-    50% {
-    -webkit-transform: scale(1.0, 1.0);
-    transform: scale(1.0, 1.0);
-  }
-    100% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5);
-=======
-.header__button:hover {
-  background: #fc3;
+  background: green;
+  opacity: 0.5;
   border-radius: 100%;
-  width: 150px;
-  height: 100px;
-  -webkit-animation: pulsing 2s;
-  animation: pulsing 2s;
+  width: 200px;
+  height: 60px;
+  -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
 }
 
 @-webkit-keyframes pulsing {
   0% {
-  -webkit-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5);
-}
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
 
   50% {
-  -webkit-transform: scale(1., 1.);
-  transform: scale(1., 1.);
-}
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
 
   100% {
-  -webkit-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
   }
 }
 
 @keyframes pulsing {
   0% {
-  -webkit-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5)
-}
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
 
   50% {
-  -webkit-transform: scale(1., 1.);
-  transform: scale(1., 1.);
-}
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
 
   100% {
-  -webkit-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5);
->>>>>>> Stashed changes
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
   }
 }
 
@@ -196,7 +143,7 @@
 .blocktwo__image {
   background: #fff no-repeat url('img/portfolio.svg');
   background-size: 380px 113px;
-  padding: 84px 188px;
+  padding: 84px 189px;
   background-position: 0 51px;
 }
 
@@ -217,9 +164,9 @@
 
 .blockthree__image {
   background: #fff no-repeat url('img/money.svg');
-  background-size: 386px 114px;
+  background-size: 382px 114px;
   padding: 89px 189px;
-  background-position: -6px 47px;
+  background-position: -4px 47px;
 }
 
 .blockthree__heading {
@@ -246,18 +193,13 @@
   margin-top: -44px;
 }
 
-<<<<<<< Updated upstream
-  /* -----квадраты----- */
-=======
 /* -----квадраты----- */
->>>>>>> Stashed changes
 .blockone {
   width: 380px;
   height: 401px;
   left: 130px;
   top: 974px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-bottom: 1.1em;
 }
 
 .blocktwo {
@@ -266,7 +208,6 @@
   left: 530px;
   top: 974px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-bottom: 1.1em;
 }
 
 .blockthree {
@@ -280,7 +221,7 @@
 .section__title {
   color: #3a3a3a;
   font: bolder 40px/136px Gilroy-Black, Arial, Helvetica, Sans-serif;
-  margin-top: -8px;
+  margin-top: 10px;
   text-align: center;
   max-width: 100%;
 }
@@ -359,100 +300,56 @@
   height: 80px;
   position: sticky;
   left: 50%;
+  margin-right: -50%;
   transform: translate(-50%, 35%);
   padding-top: inherit;
   margin-top: 91px;
 }
 
 .section__button:hover {
-<<<<<<< Updated upstream
-    opacity: .5;
-    width: 100px;
-    height: 100px;
-    background: #ffd22e;
-    border-radius: 50%;
-    cursor: pointer;
-    text-align: center;
-}
-
-.section__button:hover {
-    background: #fc3;
-    border-radius: 100%;
-    width: 250px;
-    height: 100px;
-    -webkit-animation: pulsing 2s;
-    animation: pulsing 2s;
-}
-
-@-webkit-keyframes pulsing {
-    0% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5)
-}
-    50% {
-    -webkit-transform: scale(1.0, 1.0);
-    transform: scale(1.0, 1.0);
-}
-    100% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5);
-  }
-}
-
-  @keyframes pulsing {
-    0% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5)
-  }
-    50% {
-    -webkit-transform: scale(1.0, 1.0);
-    transform: scale(1.0, 1.0);
-  }
-    100% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5);
-=======
-  background: #fc3;
+  background: green;
+  opacity: 0.5;
   border-radius: 100%;
-  width: 250px;
-  height: 100px;
-  -webkit-animation: pulsing 2s;
-  animation: pulsing 2s;
+  width: 200px;
+  cursor: pointer;
+  height: 60px;
+  text-align: center;
+  -webkit-animation: pulsing 3s infinite;
+  animation: pulsing 3s infinite;
 }
 
 @-webkit-keyframes pulsing {
   0% {
-  -webkit-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5)
-}
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
 
   50% {
-  -webkit-transform: scale(1.0, 1.0);
-  transform: scale(1.0, 1.0);
-}
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
 
   100% {
-  -webkit-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
   }
 }
 
 @keyframes pulsing {
   0% {
-  -webkit-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5)
+    -webkit-transform: scale(0.6, 0.6);
+    transform: scale(0.6, 0.6);
 }
 
   50% {
-  -webkit-transform: scale(1.0, 1.0);
-  transform: scale(1.0, 1.0);
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
 }
 
   100% {
-  -webkit-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5);
->>>>>>> Stashed changes
-  }
+    -webkit-transform: scale(0.6, 0.6);
+    transform: scale(0.6, 0.6);
+ }
 }
 
 .footer {
@@ -484,38 +381,42 @@
   display: none;
 }
 
-@media (max-width: 768px) {
-<<<<<<< Updated upstream
-
-.header__main {
-=======
-  .header__main {
->>>>>>> Stashed changes
-    background: #3030c1 no-repeat url('img/JPG.svg');
-    background-position: 62px 314px;
-    background-size: 262px 517px;
+@media (max-width: 1380px) {
+.blocktwo {
+  margin-bottom: 15px;
   }
 
+.section__button {
+  transform: translate(-50%, -18%);
+  }
+}
+
+@media (max-width: 1205px) {
   .header__heading {
-    padding: 5% 9% 0;
-    font: bold 45px/54px Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+    padding: 105px 367px 0 9%;
+    font: bold 3.3vw/5vh Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
     color: #fff;
-    font-size: 5.1vw;
   }
 
   .header__content {
-    font: bold 30px/37px Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+    font: bold 2.5vw/3.5vh Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
     color: #fc3;
     padding-left: 9%;
-    margin-bottom: 5px;
-    font-size: 5.1vw;
+    margin-bottom: 3px;
+    padding-top: 20px;
   }
 
   .header__text {
-    font: bold 20px/21px Gilroy-Light, Arial, Helvetica, Sans-serif;
+    font: bold 1.6vw/2.5vh Gilroy-Light, Arial, Helvetica, Sans-serif;
     color: #fff;
     font-weight: normal;
-    font-size: 3.38vw;
+    padding-left: 9%;
+    padding-top: 24px;
+    padding-right: 29rem;
+  }
+
+  .header__main {
+    background-size: 45%;
   }
 
   .section__heading {
@@ -525,7 +426,6 @@
     text-align: center;
     max-width: 100%;
     line-height: 1;
-    font-size: 8.1vw;
   }
 
   .container {
@@ -544,96 +444,226 @@
     text-align: center;
     max-width: 100%;
     line-height: 1;
-    margin-top: auto;
-    font-size: 8.1vw;
+  }
+
+  .blockone {
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  }
+
+  .blocktwo {
+    margin-bottom: 2vh;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
   }
 
   .section__title {
     color: #3a3a3a;
     font: bolder 40px/136px Gilroy-Black, Arial, Helvetica, Sans-serif;
-    margin-top: 21px;
+    margin-bottom: 46px;
     text-align: center;
-    line-height: 2;
+    line-height: 1.3;
     max-width: 100%;
-    font-size: 8.1vw;
   }
 
   .section__button {
     background-color: #ffda45;
     font: bolder 20px/36px Montserrat, Arial, Helvetica, Sans-serif;
-    max-width: 90vw;
-    height: 10vh;
-    transform: translate(-6%, 35%);
-    margin: -56px -2px;
+    max-width: 380px;
+    height: 80px;
+    position: sticky;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 35%);
+    padding-top: inherit;
+    margin-top: 46px;
   }
 
   .blocktwo__image {
     background: #fff no-repeat url(img/portfolio.svg);
-    background-size: 75vw 12vh;
-    padding: 8vh 10em;
-    background-position: center;
+    background-size: 380px 113px;
+    padding: 84px 170px;
+    background-position: 0 51px;
   }
 
   .blockone__image {
     background: #fff no-repeat url(img/star.svg);
-    background-size: 75vw 12vh;
-    padding: 8vh 10em;
+    background-size: 386px 114px;
+    padding: 88px 184px;
     background-position: center;
-  }
-
-  .blockone__heading {
-    font: bolder 30px/38px Gilroy-Black, Arial, Helvetica, Sans-serif;
-    color: #3030c1;
-    margin: 3vh 4vw;
-    text-align: center;
   }
 
   .blockthree__image {
     background: #fff no-repeat url(img/money.svg);
-    background-size: 75vw 12vh;
-    padding: 8vh 10em;
-    background-position: center;
+    background-size: 386px 114px;
+    padding: 89px 173px;
+    background-position: -2px 47px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__main {
+    background: #3030c1 top right no-repeat url(img/JPG.svg);
+    background-position: 54% 0%;
+    height: 81%;
+    text-align: -webkit-match-parent;
+    background-size: 51%;
+  }
+
+  .header__heading {
+    padding: 327px 0 0;
+    font: bold 4.5vw Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+    text-align: center;
+  }
+
+  .header__button {
+    margin-top: 5px;
+    margin-left: 6rem;
+    position: sticky;
+    top: 3%;
+    left: 34%;
+    font: bolder 3vw Montserrat, Arial, Helvetica, Sans-serif;
+    transform: translate(-5%, 5%);
+  }
+
+  .header__content {
+    font: bold 4.5vw/4vh Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
+    padding: 9px;
+    text-align: center;
+  }
+
+  .header__text {
+    font: bold 2.8vw/2.5vh Gilroy-Light, Arial, Helvetica, Sans-serif;
+    padding: 0;
+    text-align: center;
+  }
+
+  .section__heading {
+    font: bolder 5.5vw Gilroy-Black, Arial, Helvetica, Sans-serif;
+    line-height: 1;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+  }
+
+  .section__title {
+    font: bolder 5.5vw Gilroy-Black, Arial, Helvetica, Sans-serif;
+    line-height: 1.3;
   }
 
   .section__text {
-    color: #3a3a3a;
-    font: normal 30px/36px Gilroy-Light, Arial, Helvetica, Sans-serif;
+    font: normal 4vw Gilroy-Light, Arial, Helvetica, Sans-serif;
+    padding: 0 20px;
+  }
+
+  .input__titel {
+    font: bolder 5.5vw Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
     text-align: center;
-    font-size: 6.1vw;
+    line-height: 1;
+  }
+
+  .input {
+    padding-top: 3px;
+  }
+
+  .blockone {
+    height: 384px;
+    max-width: 94vw;
+  }
+
+  .blockone__image {
+    padding-left: 25vw;
+    background-position: center;
+  }
+
+  .blockone__heading {
+    font: bolder 25px/38px Gilroy-Black, Arial, Helvetica, Sans-serif;
+    margin: 3px 28px;
+  }
+
+  .blockone__content {
+    margin: 1vh 40px;
+  }
+
+  .blocktwo {
+    height: 384px;
+    max-width: 94vw;
+  }
+
+  .blocktwo__image {
+    padding-left: 28vw;
+    background-position: center;
+  }
+
+  .blocktwo__heading {
+    font: bolder 27px/38px Gilroy-Black, Arial, Helvetica, Sans-serif;
+    margin: 3px 43px;
+  }
+
+  .blocktwo__content {
+    margin: 1vh 6vw;
+  }
+
+  .blockthree {
+    height: 384px;
+    max-width: 94vw;
+  }
+
+  .blockthree__image {
+    padding-left: 25vw;
+    background-position: center;
+    padding-top: inherit;
+    padding-bottom: 10vh;
+  }
+
+  .blockthree__heading {
+    font: bolder 27px/38px Gilroy-Black, Arial, Helvetica, Sans-serif;
+    margin: 3px 43px;
+  }
+
+  .blockthree__content {
+    margin: 1vh 69px;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 91%;
   }
 
   .input__window {
-    max-width: 90vw;
-    height: 10vh;
-    position: sticky;
-    left: 50%;
+    max-width: 17rem;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
-    background-color: #fff;
   }
 
   .post {
-    max-width: 90vw;
-    height: 10vh;
-    position: sticky;
-    margin-top: 19px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
-<<<<<<< Updated upstream
-    background-color: #fff; 
-=======
-    background-color: #fff;
->>>>>>> Stashed changes
+    max-width: 17rem;
+    transform: translate(-50%, 50%);
+  }
+
+.input-window__name {
+    font: normal 1rem Gilroy-Light, Arial, Helvetica, Sans-serif;
   }
 
   .post__windowone {
-    color: #3a3a3a;
-    font: normal 20px/36px Gilroy-Light, Arial, Helvetica, Sans-serif;
-    padding-left: 27px;
-    padding-top: inherit;
+    font: normal 1rem Gilroy-Light, Arial, Helvetica, Sans-serif;
+    padding-left: 25px;
     line-height: 1;
- }
+  }
+
+  .section__button {
+    font: bolder 20px/36px Montserrat, Arial, Helvetica, Sans-serif;
+    max-width: 17rem;
+    transform: translate(-50%, 50%);
+  }
+
+  .footer {
+    text-align: center;
+  }
 }
 
 @media (max-width: 322px) {
@@ -643,31 +673,30 @@
   }
 
   .header {
-    max-width: 328px;
-    height: 603px;
-    margin: -8px;
+    min-width: 320px;
+    height: 595px;
     background-color: #3030c1;
   }
 
   .logo {
     background: #3030c1;
-    padding-top: 53px;
+    padding-top: 45px;
     color: #fff;
     font: normal 22px/1px Gilroy-Bold, Arial, Helvetica, Sans-serif;
-    padding-left: 37px;
-    margin-bottom: -78px;
+    padding-left: 29px;
+    margin-bottom: -79px;
   }
 
   .logoone {
     background: #3030c1;
     color: #fc3;
     font: normal 12px/0px Gilroy-Light, Arial, Helvetica, Sans-serif;
-    padding-left: 94px;
+    padding-left: 86px;
   }
 
   .header__main {
     background: #3030c1 no-repeat url('img/JPG.svg');
-    background-position: 39px 119px;
+    background-position: 31px 120px;
     background-size: 259px 519px;
     padding-bottom: 8px;
   }
@@ -682,18 +711,20 @@
 
   .header__mobile {
     display: block;
-    padding-left: 38px;
+    padding-left: 30px;
     text-align: -webkit-match-parent;
-    font: bold 25px/31px Gilroy-Bold, Arial, Helvetica, Sans-serif;
+    font: bold 25px/31px Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
     color: white;
-    padding-top: 27px;
+    padding-top: 29px;
   }
 
   .header__content {
     font: bold 20px/25px Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
     color: #fc3;
-    padding-left: 38px;
-    margin-top: 23px;
+    padding-left: 30px;
+    margin-top: 16px;
+    text-align: -webkit-left;
+    margin-bottom: -7px;
   }
 
   .header__text {
@@ -705,8 +736,7 @@
     font: bold 15px/16px Gilroy-Light, Arial, Helvetica, Sans-serif;
     color: #fff;
     font-weight: normal;
-    padding-left: 38px;
-    margin-top: -2px;
+    padding-left: 30px;
   }
 
   .section {
@@ -718,7 +748,7 @@
   .section__heading {
     font: bold 20px/81px Gilroy-Black, Gilroy-Light, Gilroy-ExtraBold, Gilroy-Bold, Arial, Helvetica, Sans-serif;
     padding-left: 0;
-    margin-top: 35px;
+    margin-top: 26px;
   }
 
   .blockone {
@@ -741,7 +771,7 @@
     display: inline-block;
     font: bold 20px/23px Gilroy-ExtraBold, Arial, Helvetica, Sans-serif;
     color: #3030c1;
-    margin: 3px 43px;
+    margin: 3px 44px;
     text-align: center;
   }
 
@@ -786,7 +816,9 @@
   .blockthree {
     width: 259px;
     height: 273px;
-    margin: 4px 0;
+    left: 31px;
+    top: 1292px;
+    margin: 9px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
@@ -801,9 +833,9 @@
     display: inline-block;
     font: bold 20px/24px Gilroy-Black, Arial, Helvetica, Sans-serif;
     color: #3030c1;
-    margin: 0 19px;
+    margin: -14px 19px;
     text-align: center;
-    padding-top: 1px;
+    padding-top: 15px;
   }
 
   .blockthree__content {
@@ -811,15 +843,15 @@
     color: #3a3a3a;
     margin: 14px 66px;
     text-align: center;
-    margin-left: 59px;
-    margin-top: 16px;
+    margin-left: 61px;
+    margin-top: 18px;
   }
 
   .section__title {
     color: #3a3a3a;
     font: bolder 20px/48px Gilroy-Black, Gilroy-Light, Gilroy-ExtraBold, Gilroy-Bold, Arial, Helvetica, Sans-serif;
     padding-left: 1px;
-    margin-top: 40px;
+    margin-top: 34px;
     display: block;
   }
 
@@ -833,19 +865,26 @@
     font: normal 18px/21px Gilroy-Light, Arial, Helvetica, Sans-serif;
     padding-left: 0;
     text-align: center;
-    margin: 20px 0 0 0;
-    padding-bottom: 41px;
+    margin: -27px 0 0 0;
+    padding-bottom: 54px;
   }
 
   .input {
     display: block;
     background-color: #f0fbff;
-    height: 325px;
-    padding-top: 0;
+    height: 345px;
+    margin-top: -14px;
   }
 
   .input__titel {
     display: none;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 91%;
   }
 
   .input__mobile {
@@ -860,10 +899,10 @@
   .input__window {
     width: 260px;
     height: 45px;
-    margin-left: 30px;
     margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: #fff;
+    transform: translate(-50%, -50%);
   }
 
   .input-window__name {
@@ -877,9 +916,10 @@
     width: 260px;
     height: 45px;
     margin-left: 30px;
-    margin-top: 13px;
+    margin-top: -35px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: #fff;
+    transform: translate(-50%, 58%);
   }
 
   .post__windowone {
@@ -904,7 +944,9 @@
     font: bold 10px/8px Montserrat, Arial, Helvetica, Sans-serif;
     width: 260px;
     height: 46px;
-    margin: -11px 16px;
+    margin-left: 29px;
+    margin-top: 36px;
+    transform: translate(-50%, 36%);
   }
 
   .footer {
@@ -920,5 +962,6 @@
     font: normal 10px/1px Roboto, Arial, Helvetica, Sans-serif;
     padding: 29px 30px;
     word-spacing: 1px;
+    text-align: -webkit-left;
   }
 }
