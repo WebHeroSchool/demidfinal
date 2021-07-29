@@ -523,7 +523,7 @@
     top: 3%;
     left: 34%;
     font: bolder 3vw Montserrat, Arial, Helvetica, Sans-serif;
-    transform: translate(-5%, 50%);
+    transform: translate(-5%, 5%);
   }
 
   .header__content {
